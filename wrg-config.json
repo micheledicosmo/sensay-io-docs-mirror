@@ -4,5 +4,5 @@
     "logoSrc": ""
   },
   "replay": {},
-  "archives": [{"name":"Sensay.io API documentation static mirror","url":"./sensay-io-api-docs.wacz","description":""}]
+  "archives": ["archives/sensay-io-api-docs.wacz"]
 }
