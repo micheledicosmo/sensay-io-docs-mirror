@@ -1,0 +1,36 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./lib/tailwind.css" rel="stylesheet">
+    <link rel="stylesheet" href="./dist/light.css" />
+    <script src="./dist/webreplaygen.js"></script>
+  </head>
+  <body>
+    
+<wrg-header homeUrl="./"></wrg-header>
+
+
+
+    
+<section class="max-w-screen-md mx-auto">
+  <h1 class="my-4 text-2xl text-center text-neutral-600">Browse <wrg-archive-name></wrg-archive-name> Collections</h1>
+
+  <main class="p-2">
+
+    <div class="text-sm text-neutral-400 mb-2">
+      <wrg-archives-count></wrg-archives-count> collections available.
+      <a href="./search" class="font-semibold underline hover:no-underline"
+        >Search by name</a
+      >
+    </div>
+
+    <wrg-index></wrg-index>
+  </main>
+</section>
+
+  </body>
+</html>
